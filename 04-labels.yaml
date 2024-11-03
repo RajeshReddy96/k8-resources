@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: lebels
+  name: labels
   labels:
     project: expense
     module: backend
@@ -10,4 +10,3 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    
